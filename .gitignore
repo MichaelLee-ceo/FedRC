@@ -1,0 +1,8 @@
+# ignore train dataset file
+data/MNIST/train/all_data_0_niid_0_keep_10_train_9.json
+
+# ignore test dataset file
+data/MNIST/test/all_data_0_niid_0_keep_10_test_9.json
+
+# ignore all readme
+*.md

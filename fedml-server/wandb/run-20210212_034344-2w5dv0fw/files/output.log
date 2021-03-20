@@ -1,0 +1,13 @@
+helloINFO:root:load_data. dataset_name = mnist
+
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:werkzeug: * Running on http://172.20.10.11:5000/ (Press CTRL+C to quit)
+Connection returned with result code:0
+0
+0
+0
+0
+onSubscribe :1
+onSubscribe :2
+onSubscribe :3
+onSubscribe :4

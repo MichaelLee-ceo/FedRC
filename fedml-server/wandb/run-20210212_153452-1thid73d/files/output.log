@@ -1,0 +1,286 @@
+INFO:root:load_data. dataset_name = mnist
+hello
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:werkzeug: * Running on http://172.20.10.11:5000/ (Press CTRL+C to quit)
+Connection returned with result code:0
+0
+onSubscribe :1
+INFO:werkzeug:172.20.10.12 - - [12/Feb/2021 15:37:04] "[37mPOST /api/register?device_id=0 HTTP/1.1[0m" 200 -
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 0
+INFO:root:{'training_acc': 0.24472950181629477, 'training_loss': 2.2056275657366053}
+INFO:root:{'test_acc': 0.24406457739791074, 'test_loss': 2.2072503632079825}
+indexes of clients: [1]
+size = 2
+transform_tensor_to_list
+json string size = 174972
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+INFO:root:topic = fedml0_1
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 1
+INFO:root:{'training_acc': 0.24301050856253242, 'training_loss': 2.185871188069216}
+INFO:root:{'test_acc': 0.24080857414190748, 'test_loss': 2.187594175807755}
+indexes of clients: [2]INFO:root:send_message_sync_model_to_client. receive_id = 1
+INFO:root:topic = fedml0_1
+
+size = 2
+transform_tensor_to_list
+json string size = 174981
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 2
+INFO:root:{'training_acc': 0.2873151271406331, 'training_loss': 2.153933436964065}
+indexes of clients: [3]INFO:root:{'test_acc': 0.2878849545516212, 'test_loss': 2.154855986897131}
+
+size = 2
+transform_tensor_to_list
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+INFO:root:topic = fedml0_1
+json string size = 174974
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 3
+INFO:root:{'training_acc': 0.364831992734821, 'training_loss': 2.1221538070119537}
+indexes of clients: [4]INFO:root:{'test_acc': 0.36046669380002716, 'test_loss': 2.1238259779130924}
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+
+size = 2
+transform_tensor_to_list
+INFO:root:topic = fedml0_1
+json string size = 174896
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 4
+INFO:root:{'training_acc': 0.39634146341463417, 'training_loss': 2.110088766902902}
+INFO:root:{'test_acc': 0.39438339438339437, 'test_loss': 2.112018922972818}
+indexes of clients: [5]
+size = 2INFO:root:send_message_sync_model_to_client. receive_id = 1
+
+transform_tensor_to_list
+INFO:root:topic = fedml0_1
+json string size = 174925INFO:root:sent
+
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 5
+INFO:root:{'training_acc': 0.47042034250129733, 'training_loss': 2.0534065805789283}
+INFO:root:{'test_acc': 0.46791480124813456, 'test_loss': 2.0561261762031107}
+indexes of clients: [6]
+size = 2
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+INFO:root:topic = fedml0_1
+transform_tensor_to_list
+INFO:root:sent
+json string size = 174813
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 6
+INFO:root:{'training_acc': 0.5090166061235081, 'training_loss': 2.033062167887126}
+INFO:root:{'test_acc': 0.5040021706688373, 'test_loss': 2.03663958480733}
+indexes of clients: [7]
+size = 2
+transform_tensor_to_list
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+json string size = 174751INFO:root:topic = fedml0_1
+
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 7
+INFO:root:{'training_acc': 0.5845225739491438, 'training_loss': 1.9983032185740897}
+INFO:root:{'test_acc': 0.5839099172432506, 'test_loss': 2.000907369650392}
+indexes of clients: [8]
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+size = 2
+transform_tensor_to_list
+INFO:root:topic = fedml0_1
+json string size = 174839
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 8
+INFO:root:{'training_acc': 0.582381940840685, 'training_loss': 1.9750475736328155}
+INFO:root:{'test_acc': 0.5807895807895808, 'test_loss': 1.9767298572277896}
+indexes of clients: [9]
+size = 2
+transform_tensor_to_list
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+json string size = 174715INFO:root:topic = fedml0_1
+INFO:root:sent
+
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 9
+INFO:root:{'training_acc': 0.6496334976647639, 'training_loss': 1.9391595776418546}
+INFO:root:{'test_acc': 0.6505223171889839, 'test_loss': 1.9403302847910504}
+indexes of clients: [10]INFO:root:send_message_sync_model_to_client. receive_id = 1
+
+size = 2
+transform_tensor_to_list
+json string size = 174704
+INFO:root:topic = fedml0_1
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 10
+INFO:root:{'training_acc': 0.6665315256875973, 'training_loss': 1.9237682945314905}
+INFO:root:{'test_acc': 0.6716863383530051, 'test_loss': 1.9245772216038957}
+indexes of clients: [11]
+size = 2
+transform_tensor_to_list
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+json string size = 174627INFO:root:topic = fedml0_1
+
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 11
+INFO:root:{'training_acc': 0.6588771406331084, 'training_loss': 1.9292120395965786}
+INFO:root:{'test_acc': 0.6631393298059964, 'test_loss': 1.9306749154456904}
+indexes of clients: [12]
+size = 2
+transform_tensor_to_list
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+json string size = 174671
+INFO:root:topic = fedml0_1
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 12
+INFO:root:{'training_acc': 0.6750940581214323, 'training_loss': 1.9248876375956707}
+INFO:root:{'test_acc': 0.6795550128883462, 'test_loss': 1.9253024921991693}
+indexes of clients: [13]INFO:root:send_message_sync_model_to_client. receive_id = 1
+
+size = 2
+transform_tensor_to_list
+json string size = 174612
+INFO:root:topic = fedml0_1
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 13
+INFO:root:{'training_acc': 0.6801537363777893, 'training_loss': 1.9216708568290657}
+indexes of clients: [14]INFO:root:{'test_acc': 0.6836250169583503, 'test_loss': 1.921360642789355}
+
+size = 2
+transform_tensor_to_list
+json string size = 174602INFO:root:send_message_sync_model_to_client. receive_id = 1
+
+INFO:root:topic = fedml0_1
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 14
+INFO:root:{'training_acc': 0.6890892579138558, 'training_loss': 1.913035009413973}
+INFO:root:{'test_acc': 0.6947496947496947, 'test_loss': 1.9126123222271634}
+indexes of clients: [15]INFO:root:send_message_sync_model_to_client. receive_id = 1
+INFO:root:topic = fedml0_1
+
+size = 2
+transform_tensor_to_list
+json string size = 174625
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 15
+INFO:root:{'training_acc': 0.6878081214322782, 'training_loss': 1.9104033351393024}
+indexes of clients: [16]INFO:root:{'test_acc': 0.689323022656356, 'test_loss': 1.909722864474197}
+
+size = 2
+transform_tensor_to_list
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+INFO:root:topic = fedml0_1
+json string size = 174502
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 16
+INFO:root:{'training_acc': 0.6885540996367411, 'training_loss': 1.9074883927578097}
+INFO:root:{'test_acc': 0.6958350291683625, 'test_loss': 1.9071437159090479}
+indexes of clients: [17]
+size = 2
+transform_tensor_to_list
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+json string size = 174590INFO:root:topic = fedml0_1
+
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 17
+INFO:root:{'training_acc': 0.726712506486767, 'training_loss': 1.8924488495507572}
+INFO:root:{'test_acc': 0.7331433998100665, 'test_loss': 1.8921053712653622}
+indexes of clients: [18]
+size = 2
+transform_tensor_to_list
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+json string size = 174523
+INFO:root:topic = fedml0_1
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 18
+INFO:root:{'training_acc': 0.7175012973533991, 'training_loss': 1.8888228162775154}
+INFO:root:{'test_acc': 0.7247320580653914, 'test_loss': 1.887782981317769}
+indexes of clients: [19]
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+size = 2
+transform_tensor_to_list
+INFO:root:topic = fedml0_1
+json string size = 174407
+INFO:root:sent
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 19
+INFO:root:{'training_acc': 0.7207284639335755, 'training_loss': 1.8848967084058932}
+INFO:root:{'test_acc': 0.7281237281237282, 'test_loss': 1.8830970934426796}
+INFO:root:__finish server
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :21

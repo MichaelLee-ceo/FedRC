@@ -1,0 +1,22 @@
+{
+    "os": "Linux-4.9.201-tegra-aarch64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.9",
+    "heartbeatAt": "2021-02-11T19:33:28.770276",
+    "startedAt": "2021-02-11T19:33:20.121250",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": "10.2.89",
+    "args": [],
+    "state": "running",
+    "codePath": "app.py",
+    "program": "app.py",
+    "git": {
+        "remote": "https://github.com/FedML-AI/FedML-Server.git",
+        "commit": "4038ade1f899082f904c372bba22a97505581d68"
+    },
+    "email": null,
+    "root": "/home/michaellee/FedML/FedML-Server",
+    "host": "k8s-node2",
+    "username": "michaellee",
+    "executable": "/usr/bin/python3"
+}

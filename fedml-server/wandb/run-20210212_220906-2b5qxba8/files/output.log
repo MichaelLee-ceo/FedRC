@@ -1,0 +1,16 @@
+INFO:root:load_data. dataset_name = mnist
+hello
+Traceback (most recent call last):
+  File "app.py", line 252, in <module>
+    dataset = load_data(args, args.dataset)
+  File "app.py", line 173, in load_data
+    test_path="../data/MNIST/test")
+  File "/home/michaellee/FedML/fedml_api/data_preprocessing/MNIST/data_loader.py", line 90, in load_partition_data_mnist
+    users, groups, train_data, test_data = read_data(train_path, test_path)
+  File "/home/michaellee/FedML/fedml_api/data_preprocessing/MNIST/data_loader.py", line 32, in read_data
+    cdata = json.load(inf)
+  File "/usr/lib/python3.6/json/__init__.py", line 296, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.6/codecs.py", line 318, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt

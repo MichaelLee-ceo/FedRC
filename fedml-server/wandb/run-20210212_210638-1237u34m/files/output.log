@@ -1,0 +1,148 @@
+INFO:root:load_data. dataset_name = mnist
+hello
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:werkzeug: * Running on http://172.20.10.11:5000/ (Press CTRL+C to quit)
+Connection returned with result code:0
+0
+onSubscribe :1
+Disconnection returned result:1
+Connection returned with result code:0
+0
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :3
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :4
+INFO:werkzeug:172.20.10.7 - - [12/Feb/2021 21:08:39] "[37mPOST /api/register?device_id=%270%27 HTTP/1.1[0m" 200 -
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :5
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :6
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :7
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :8
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :9
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :10
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :11
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :12
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :13
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :14
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :15
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :16
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :17
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :18
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :19
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :20
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :21
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :22
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :23
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :24
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :25
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :26
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :27
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :28
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :29
+INFO:werkzeug:172.20.10.12 - - [12/Feb/2021 21:10:27] "[37mPOST /api/register?device_id=0 HTTP/1.1[0m" 200 -
+INFO:root:add_model. index = 0
+INFO:root:b_all_received = True
+INFO:root:len of self.model_dict[idx] = 1
+INFO:root:aggregate time cost: 0
+INFO:root:################test_on_server_for_all_clients : 0
+INFO:root:{'training_acc': 0.20924688635184224, 'training_loss': 2.2275409611685326}
+INFO:root:{'test_acc': 0.21367521367521367, 'test_loss': 2.2275877812552074}
+indexes of clients: [1]
+size = 2
+transform_tensor_to_list
+INFO:root:send_message_sync_model_to_client. receive_id = 1
+json string size = 175046INFO:root:topic = fedml0_1
+
+INFO:root:sent
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :31
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :32
+INFO:werkzeug:172.20.10.12 - - [12/Feb/2021 21:11:01] "[37mPOST /api/register?device_id=0 HTTP/1.1[0m" 200 -
+Disconnection returned result:1
+Connection returned with result code:0
+0
+onSubscribe :33
+Disconnection returned result:1
